@@ -2,6 +2,12 @@ export default function Button() {
     return React.createElement(
       'button',
       {  },
-      'Boton'
+      'El Boton de ReactJS'
     );
+
+    /* Si esto fuera jsx
+    return (
+      <button>El Boton</button>
+    );
+    */
 }

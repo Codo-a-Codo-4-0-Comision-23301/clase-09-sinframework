@@ -7,4 +7,4 @@ myApp.innerHTML = myApp.innerHTML + '<div id="reactApp"></div>';
 
 let myReactApp = document.getElementById("reactApp");
 const root = ReactDOM.createRoot(myReactApp);
-//root.render(React.createElement(Button));
+root.render(React.createElement(Button));
